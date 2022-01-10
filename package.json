@@ -1,15 +1,14 @@
 {
-  "name": "json-server-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "json:server": "json-server --watch ./db.json"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "json-server",
+  "version": "0.0.1",
   "dependencies": {
-    "json-server": "^0.17.0"
-  }
+    "json-server": "^0.16.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "description": "",
+  "author": "",
+  "license": "MIT"
 }
