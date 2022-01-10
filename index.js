@@ -12,7 +12,6 @@ fs.writeFileSync('/tmp/db.json', JSON.stringify(db()));
 // https://stackoverflow.com/questions/43389724/lambda-function-error-erofs-read-only-file-system-open-tmp-test-zip-proc
 let router = jsonServer.router('/tmp/db.json');
 let middlewares = jsonServer.defaults();
-console.log('process.env :>>\n ', process.env);
 let port = 9000;
 
 server.use(middlewares);
