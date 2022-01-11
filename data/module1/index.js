@@ -4,7 +4,7 @@ module.exports = () => {
       {
         id: 1,
         name: 'zjh',
-        age: 33
+        age: 31
       },
       {
         id: 2,
@@ -14,12 +14,7 @@ module.exports = () => {
       {
         id: 3,
         name: 'ytt3',
-        age: 30
-      },
-      {
-        id: 5,
-        name: 'ytt3',
-        age: 30
+        age: 33
       }
     ],
     companies: [
